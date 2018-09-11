@@ -3,8 +3,8 @@ package addrutil
 import (
 	"testing"
 
-	ma "github.com/multiformats/go-multiaddr"
-	manet "github.com/multiformats/go-multiaddr-net"
+	ma "github.com/dms3-mft/go-multiaddr"
+	manet "github.com/dms3-mft/go-multiaddr-net"
 )
 
 func newMultiaddr(t *testing.T, s string) ma.Multiaddr {

@@ -1,8 +1,9 @@
 package addrutil
 
 import (
-	ma "github.com/multiformats/go-multiaddr"
-	mafmt "github.com/whyrusleeping/mafmt"
+	ma "github.com/dms3-mft/go-multiaddr"
+//	mafmt "github.com/whyrusleeping/mafmt" // imports from multiformats, use ours
+	mafmt "github.com/dms3-why/mafmt"
 )
 
 // SubtractFilter returns a filter func that filters all of the given addresses

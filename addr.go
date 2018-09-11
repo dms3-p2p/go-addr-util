@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	logging "github.com/ipfs/go-log"
-	ma "github.com/multiformats/go-multiaddr"
-	manet "github.com/multiformats/go-multiaddr-net"
+	logging "github.com/dms3-fs/go-log"
+	ma "github.com/dms3-mft/go-multiaddr"
+	manet "github.com/dms3-mft/go-multiaddr-net"
 )
 
 var log = logging.Logger("addrutil")
@@ -192,6 +192,6 @@ const natWarning = `Remote peer observed our address to be: %s
 The local addresses are: %s
 Thus, connection is going through NAT, and other connections may fail.
 
-IPFS NAT traversal is still under development. Please bug us on github or irc to fix this.
+DMS3FS NAT traversal is still under development. Please bug us on github or irc to fix this.
 Baby steps: http://jbenet.static.s3.amazonaws.com/271dfcf/baby-steps.gif
 `
